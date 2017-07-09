@@ -192,7 +192,7 @@ def main():
                 add_big_enemies(big_enemies, enemies, 1)
                 inc_speed(small_enemies, 1)
                 inc_speed(mid_enemies, 1)
-            elif level ==3 and score > 60000:
+            elif level ==3 and score > 50000:
                 level = 4
                 level_up_sound.play()
                 add_small_enemies(small_enemies, enemies, 1)
